@@ -95,7 +95,7 @@ class _pageOneState extends State<pageOne> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Container(width: 55,),
+                        Container(width: 25,),
                         Container(
                           width: 110,
                           height: 60,
@@ -110,11 +110,8 @@ class _pageOneState extends State<pageOne> {
                         Container(
                             margin: EdgeInsets.only(bottom: 60,),
                             padding: EdgeInsets.only(right: 15),
-                            child: Image.asset(
-                              'assets/icons8-sun.png',
-                              scale: 4,
-                              color: Colors.white,
-                            ),
+                            width: 20,
+                          height: 45,
                         )
                       ],
                     ),
@@ -198,7 +195,6 @@ class _pageOneState extends State<pageOne> {
               ),
             ],
           ),
-          SizedBox(height: 25,),
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 15),
             child: Row(

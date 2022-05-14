@@ -63,9 +63,10 @@ class _MainPageState extends State<MainPage> {
               scale: 2,
 
             ),
-            title: Text(
+            label:
                 'Лента'
-            )
+
+
         ),
           BottomNavigationBarItem(
               icon: Image.asset(
@@ -78,9 +79,8 @@ class _MainPageState extends State<MainPage> {
                 scale: 2,
 
               ),
-              title: Text(
-                  'Отели'
-              )
+              label:
+              'Лента'
           ),
           BottomNavigationBarItem(
               icon: Image.asset(
@@ -93,9 +93,9 @@ class _MainPageState extends State<MainPage> {
                 scale: 2,
 
               ),
-              title: Text(
-                  'Еда'
-              )
+              label:
+              'Лента'
+
           ),
           BottomNavigationBarItem(
               icon: Image.asset(
@@ -108,9 +108,8 @@ class _MainPageState extends State<MainPage> {
                 scale: 2,
 
               ),
-              title: Text(
-                  'Карта'
-              )
+              label:
+              'Лента'
           ),
     ],
         onTap: onSelectedTab,
